@@ -1,0 +1,11 @@
+beautifulsoup4
+keras_tuner
+matplotlib
+numpy
+pandas
+pillow
+requests
+scikit-learn
+seaborn
+tensorflow
+
