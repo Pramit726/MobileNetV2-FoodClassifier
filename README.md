@@ -66,6 +66,7 @@ https://drive.google.com/file/d/1JsY1u6MIEwGQN6ilFBm3a1w18HmA9nfj/view?usp=drive
 - **Feature extraction:** Utilized MobileNet V2's pre-trained weights on imagenet to capture key features from food ingredient images.
 - **Fine-tuning:** Modified MobileNet V2's architecture, focusing on fine-tuning parameters from block 6 onwards to optimize performance for the food ingredient dataset.
 - **Model architecture diagram:**
+
 ![model](https://github.com/user-attachments/assets/a9aecdf2-826b-4abb-bdac-09d412473b35)
 
 
@@ -75,17 +76,14 @@ https://drive.google.com/file/d/1JsY1u6MIEwGQN6ilFBm3a1w18HmA9nfj/view?usp=drive
 To enhance model performance, we conducted hyperparameter optimization, specifically targeting learning rates. We experimented with three different values: 10^-2, 10^-3, and 10^-4, across three epochs. This process allowed us to fine-tune our model's training process and achieve optimal results.
 
 Following illustration shows the trial information, learning rates and respective maximum validation accuracy conducted using Keras Tuner random search:
-![Screenshot 2024-04-29 100958](https://github.com/Pramit726/MobileNetV2-FoodClassifier/assets/149934842/604af5af-8bda-434c-bfea-268c131613c9)
+
+![Screenshot 2024-12-20 213341](https://github.com/user-attachments/assets/52148e0f-78f4-407a-b6a3-99b9ce57e061)
 
 
 ## 📊 Evaluation
 
 - Evaluation conducted on test data.
 - Achieved accuracy: 93.14%.
-- **Classification report:**
-  
-![Screenshot 2024-04-28 113619](https://github.com/Pramit726/MobileNetV2-FoodClassifier/assets/149934842/2d89db7c-42c2-450f-bea4-5c23ed6cca18)
-
 
 - **Confusion matrix:**
 ![Confusion_matrix](https://github.com/user-attachments/assets/5d9e5927-4098-4600-bc67-6dc654a79764)
