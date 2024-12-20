@@ -9,7 +9,8 @@ The selected model is converted into TensorFlow Lite format for efficient deploy
 
 
 ## Model Predictions
-![preview](https://github.com/Pramit726/MobileNetV2-FoodClassifier/assets/149934842/3a2b773f-07d2-4033-93ee-03cc25cba8a5)
+![preview](https://github.com/user-attachments/assets/e1a332d6-0a8a-4d68-a36d-4660cff3f06b)
+
 
 ## Table of Contents
 
@@ -65,8 +66,9 @@ https://drive.google.com/file/d/1JsY1u6MIEwGQN6ilFBm3a1w18HmA9nfj/view?usp=drive
 - **Feature extraction:** Utilized MobileNet V2's pre-trained weights on imagenet to capture key features from food ingredient images.
 - **Fine-tuning:** Modified MobileNet V2's architecture, focusing on fine-tuning parameters from block 6 onwards to optimize performance for the food ingredient dataset.
 - **Model architecture diagram:**
+![model](https://github.com/user-attachments/assets/a9aecdf2-826b-4abb-bdac-09d412473b35)
 
-![model](https://github.com/Pramit726/MobileNetV2-FoodClassifier/assets/149934842/bf79373b-9634-4d38-8ae6-427fb036955b)
+
 
 ## 🧠 Hyperparameter Optimization
 
@@ -86,8 +88,9 @@ Following illustration shows the trial information, learning rates and respectiv
 
 
 - **Confusion matrix:**
+![Confusion_matrix](https://github.com/user-attachments/assets/5d9e5927-4098-4600-bc67-6dc654a79764)
 
-![Confusion_matrix](https://github.com/Pramit726/MobileNetV2-FoodClassifier/assets/149934842/d26da6db-5947-404f-8c17-28f5a6958f79)
+
 
 ## 📱 Model Deployment with TensorFlow Lite
 
